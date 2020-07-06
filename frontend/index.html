@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>JavaScript - read JSON from URL</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td><label><b>Buscar empleado por id</b></label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="caja_texto" id="valor">
+                <button onclick="EmployerId()">Buscar</button></td>
+            </tr>
+            <tr>
+                <td><div class="mypanel"></div></td>
+            </tr>
+            <tr>
+                <td><label><b>Añadir empleado</b></label></td>
+            </tr>
+            <tr>
+                <td><label>Nombre</label></td><td><input type="text" name="caja_texto2" id="name"></td>
+            </tr>
+            <tr>
+                <td><label>Apellido</label></td><td><input type="text" name="caja_texto3" id="surname"></td>
+            </tr>
+            <tr>
+                <td><label>Trabajo</label></td><td><input type="text" name="caja_texto4" id="job"></td>
+            </tr>
+            <tr>
+                <td><label>Salario</label></td><td><input type="text" name="caja_texto5" id="salary"></td><td>
+                <button onclick="EmployerAdd()">Añadir</button></td>
+            </tr>
+            <tr>
+                <td><label><b>Modificar empleado</b></label></td>
+            </tr>
+            <tr>
+                <td><label>Id</label></td><td><input type="text" name="caja_texto6" id="id_mod"></td>
+            </tr>
+            <tr>
+                <td><label>Nombre</label></td><td><input type="text" name="caja_texto7" id="name_mod"></td>
+            </tr>
+            <tr>
+                <td><label>Apellido</label></td><td><input type="text" name="caja_texto8" id="surname_mod"></td>
+            </tr>
+            <tr>
+                <td><label>Trabajo</label></td><td><input type="text" name="caja_texto9" id="job_mod"></td>
+            </tr>
+            <tr>
+                <td><label>Salario</label></td><td><input type="text" name="caja_texto10" id="salary_mod"></td><td>
+                <button onclick="EmployerMod()">Modificar</button></td>
+            </tr>
+            <tr>
+                <td><label><b>Eliminar empleado</b></label></td>
+            </tr>
+            <tr>
+                <td><label>Salario</label></td><td><input type="text" name="caja_texto11" id="id_del"></td><td>
+                <button onclick="EmployerDel()">Eliminar</button></td>
+            </tr>
+            <tr>
+            <td>&nbsp;</td>
+            </tr>
+            <tr>
+            <td>&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    
+    
+</body>
+</html>
